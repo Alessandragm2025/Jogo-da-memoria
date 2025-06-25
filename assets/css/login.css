@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+
+    background: url('../images/fundo.webp') center;
+    background-size: cover;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 8rem;
+    height: 8rem;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px groove;
+}
+
+h1 {
+    color: #fff;
+    text-shadow: 4px 4px #000000,
+    6px 6px #000;
+    font-size: 3rem;
+    margin: 1rem 0;
+}
+
+input {
+    width: 100%;
+    max-width: 18rem;
+    font-size: 1.2rem;
+    padding: .5rem;
+    border: 2px solid #000;
+    color: #3c0648;
+    font-family: Arial, Helvetica, sans-serif;
+    outline-color: #3c0648;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 2rem;
+
+}
+
+button {
+    width: 100%;
+    max-width: 18rem;
+    padding: .5rem;
+    border-radius: 8px;
+    margin-top: 1rem;
+    background: #67077d;
+    color: #fff;
+    text-shadow: 1px 1px #000;
+    font-size: 1.3rem;
+    cursor: pointer;
+    text-transform: uppercase;
+
+}
+
+button:disabled {
+    background:  #6e6e6e;
+    cursor: auto;
+    color: #8d8c8c;
+}
